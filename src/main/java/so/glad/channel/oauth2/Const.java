@@ -5,6 +5,7 @@ package so.glad.channel.oauth2;
  * on 2015/3/26.
  */
 public class Const {
+
     public static final String STATE = "state";
 
     public static final String SCOPE = "scope";

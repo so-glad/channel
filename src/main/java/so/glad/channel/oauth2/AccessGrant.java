@@ -56,8 +56,12 @@ public class AccessGrant implements Serializable {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof AccessGrant)) return false;
+        if (this == o) {
+            return true;
+        }
+        if (!(o instanceof AccessGrant)) {
+            return false;
+        }
         AccessGrant that = (AccessGrant) o;
         return Objects.equal(accessToken, that.accessToken) &&
                 Objects.equal(scope, that.scope) &&

@@ -4,12 +4,13 @@ package so.glad.channel.oauth2;
  * @author Cartoon
  * on 2015/3/26.
  */
-public class Const {
-    public static final String STATE = "state";
+public interface Const {
 
-    public static final String SCOPE = "scope";
+    String STATE = "state";
 
-    public static final String REDIRECT_URI = "redirect_uri";
+    String SCOPE = "scope";
 
-    public static final String DISPLAY = "display";
+    String REDIRECT_URI = "redirect_uri";
+
+    String DISPLAY = "display";
 }
